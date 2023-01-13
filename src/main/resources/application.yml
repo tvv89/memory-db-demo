@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: Memory
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true
+server:
+  port: 9001
